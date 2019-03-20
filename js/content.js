@@ -27,13 +27,13 @@ function addToggleTags() {
 }
 
 function addToggleButton() {
-    // New Reddit
-    var menuitem = $('button#StateSort--StateSortPicker');
+    // New Reddit uses some kind of hashed value for just about every element, so the best we can do is find the last sort button and go up a few levels to add a new button container
+    var menuitem = $("button#StateSort--StateSortPicker");
     menuitem.parent().parent().parent().after('<span id="toggleStealthButton" style="margin-left: 10px; font-family: IBMPlexSans, Arial, sans-serif; font-weight: bold; font-size: 12px; cursor: pointer; color: rgb(0, 121, 211)"><b>STEALTHMODE</b><\/span>')
 
     // Old Reddit
     var tabmenu = $('ul.tabmenu > li:last');
-    tabmenu.after("<li id='toggleStealthButton' style='cursor: pointer;'><a id='toggleStealthButton' class='choice'>stealthmode</a></li>");
+    tabmenu.after('<li id="toggleStealthButton" style="cursor: pointer;"><a id="toggleStealthButton" class="choice">stealthmode</a></li>');
 }
 
  $(document).ready(function() {
