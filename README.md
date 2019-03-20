@@ -8,7 +8,11 @@ This is a very simple extension to show or hide the "to r/foo" in the post tagli
 4. Click "Load Unpacked Extension..." in the top left
 5. Select the cloned folder and hit "Select"
 
+With:
+
 ![with-subreddits]
+
+Without:
 
 ![without-subreddits]
 
