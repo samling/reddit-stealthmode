@@ -1,0 +1,24 @@
+{
+    "name": "Reddit Stealth Mode",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Browse Reddit without seeing what subreddit posts are from",
+    "permissions": [
+        "activeTab",
+        "*://*.reddit.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.reddit.com/"],
+            "css": ["css/style.css"],
+            "js": ["js/jquery-3.3.1.min.js", "js/content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+    },
+    "web_accessible_resources": ["img/Reddit-icon.png"],
+    "icons": {
+        "128": "img/Reddit-icon.png"
+    }
+}
