@@ -1,11 +1,5 @@
 # Reddit Comment Copy
-This is a simple extension that gives you a context menu in a Reddit comment thread
-that lets you copy the current comment with or without its parent context.
-
-* Without context will copy the current comment's permalink to your clipboard
-* With context will copy the current comment's permalink plus "?context=10000"
-    to your clipboard, showing the parent comments while still highlighting the
-    permalinked comment.
+This is a very simple extension to show or hide the "to r/foo" in the post tagline while browsing, which can spoil posts from e.g. r/unexpected or r/misleadingthumbnails.
 
 ### To use:
 1. Clone this repository
