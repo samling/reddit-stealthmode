@@ -5,12 +5,12 @@
     "description": "Browse Reddit without seeing what subreddit posts are from",
     "permissions": [
         "activeTab",
+        "storage",
         "*://*.reddit.com/"
     ],
     "content_scripts": [
         {
             "matches": ["*://*.reddit.com/"],
-            "css": ["css/style.css"],
             "js": ["js/jquery-3.3.1.min.js", "js/content.js"],
             "run_at": "document_end"
         }
