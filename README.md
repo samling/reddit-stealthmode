@@ -16,5 +16,5 @@ Without:
 
 ![without-subreddits]
 
-[with-subreddits]: https://github.com/samling/reddit-stealthmode/blob/master/img/with-subreddit.png "With subreddits"
-[without-subreddits]: https://github.com/samling/reddit-stealthmode/blob/master/img/without-subreddit.png "Without subreddits"
+[with-subreddits]: https://github.com/samling/reddit-stealthmode/blob/master/img/with-subreddits.png "With subreddits"
+[without-subreddits]: https://github.com/samling/reddit-stealthmode/blob/master/img/without-subreddits.png "Without subreddits"
